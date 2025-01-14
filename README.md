@@ -1,8 +1,15 @@
 # EXPLORATORY DATA ANALYSIS (EDA) - FootySage
 
-Este proyecto realiza un análisis exploratorio de los datos de StatsBomb *Open Data*, enfocado en proporcionar insights sobre el fútbol profesional.
 
-A continuación se detalla el flujo de trabajo y los principales hallazgos:
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; margin-right: 10px;">
+    Este proyecto realiza un análisis exploratorio de los datos de StatsBomb <em>Open Data</em>, enfocado en proporcionar insights sobre el fútbol profesional.
+    <p>A continuación se detalla el flujo de trabajo y los principales hallazgos:</p>
+  </div>
+  <div style="flex-shrink: 0;">
+    <img src="https://i0.wp.com/lamediainglesa.com/wp-content/uploads/2020/01/statsbomb_la_media_inglesa.jpg?fit=1000%2C523&ssl=1" alt="StatsBomb Logo" width="200">
+  </div>
+</div>
 
 
 ## Preparación y Carga de Datos
