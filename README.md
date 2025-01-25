@@ -13,7 +13,7 @@
 
 
 ## Preparación y Carga de Datos
-- **Importación de Librerías**: Utilizamos `pandas` para manipulación de datos, `statsbombpy` para acceso a datos de fútbol, y `mplsoccer` para visualizaciones. Finalmente se ha preferido descargar los datos del reporitorio [https://github.com/statsbomb/open-data](https://github.com/statsbomb/open-data) antes que usar la API ya que al hacer un análisis de todos los datos iba a ser más tedioso hacerlo desde llamadas a la API `statsbombpy`.
+- **Importación de Librerías**: Utilizamos `pandas` para manipulación de datos, `statsbombpy` para acceso a datos de fútbol, y `mplsoccer` para visualizaciones. Finalmente, se ha preferido descargar los datos del reporitorio [https://github.com/statsbomb/open-data](https://github.com/statsbomb/open-data) antes que usar la API en varios análisis. Únicamente se ha usado la API para representar la importancia de los datos 360.
     - **Carga de Archivos JSON**: Los datos ya mencionado arriba del repositorio de *Open Data*. Se cargaron datos de competiciones, partidos, eventos y alineaciones desde una estructura jerárquica de directorios.
 - **Optimización de Datos**: Conversión a formatos eficientes como Parquet para mejorar el tiempo en la lectura de datos.
 
@@ -57,6 +57,10 @@
   - Identificación de los jugadores con más partidos jugados en torneos como la Eurocopa 2024.
 - **Por Equipo**:
   - Ejemplo: Top 10 jugadores del Sevilla FC en LaLiga 2015/2016.
+
+
+## Visualización datos 360
+- Para visualizar la importancia de los datos 360 hemos representado un ejemplo en un partido (Argentina-Países Bajos, cuartos de final de la Copa del Mundo masculina 2022). El ejemplo es la asistencia de Messi en el primer gol de Argentina en el partido. Gracias a estos datos podemos obtener información mucho más valiosa.
 
 
 ## Visualizaciones y Herramientas
