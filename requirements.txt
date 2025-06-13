@@ -1,0 +1,10 @@
+pandas==2.2.2
+numpy==2.2.0
+matplotlib==3.10.1
+seaborn==0.13.2
+mplsoccer==1.2.4
+statsbombpy==1.13.0
+dask[dataframe]
+hvplot==0.10.0
+bokeh==3.4.3
+jupyter==1.1.1
